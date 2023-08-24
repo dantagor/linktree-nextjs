@@ -1,0 +1,25 @@
+{
+  "name": "Adam Nemeth",
+  "avatar": "https://pbs.twimg.com/profile_images/1635632572620308486/XMMPl5Qv_400x400.jpg",
+  "links": [
+    {
+      "title": "My personal site",
+      "href": "https://nemethadam.com",
+      "image": "https://pbs.twimg.com/profile_images/1635632572620308486/XMMPl5Qv_400x400.jpg"
+    },
+    {
+      "title": "My newsletter",
+      "href": "https://nemeth.substack.com"
+    }
+  ],
+  "socials": [
+    {
+      "title": "Twitter",
+      "href": "https://twitter.com/dantagor"
+    },
+    {
+      "title": "GitHub",
+      "href": "https://github.com/dantagor"
+    }
+  ]
+}
