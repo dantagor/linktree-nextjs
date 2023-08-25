@@ -4,6 +4,7 @@ import data from "../data.json";
 export function TwitterIcon() {
   return (
     <svg
+      className="hover:scale-105 transition-all"
       xmlns="http://www.w3.org/2000/svg"
       data-name="Layer 1"
       viewBox="0 0 24 24"
@@ -21,6 +22,7 @@ export function TwitterIcon() {
 export function GitHubIcon() {
   return (
     <svg
+      className="hover:scale-105 transition-all"
       xmlns="http://www.w3.org/2000/svg"
       data-name="Layer 1"
       viewBox="0 0 24 24"
