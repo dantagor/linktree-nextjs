@@ -1,7 +1,7 @@
 import Image from "next/image";
 import data from "../data.json";
 
-export function TwitterIcon() {
+function TwitterIcon() {
   return (
     <svg
       className="hover:scale-105 transition-all"
@@ -19,7 +19,7 @@ export function TwitterIcon() {
     </svg>
   );
 }
-export function GitHubIcon() {
+function GitHubIcon() {
   return (
     <svg
       className="hover:scale-105 transition-all"
@@ -56,14 +56,14 @@ export default function Home() {
         {data.socials.map((link) => {
           if (link.href.includes("twitter")) {
             return (
-              <div>
+              <div key={link.title}>
                 <TwitterIcon />
               </div>
             );
           }
           if (link.href.includes("github")) {
             return (
-              <div>
+              <div key={link.title}>
                 <GitHubIcon />
               </div>
             );
