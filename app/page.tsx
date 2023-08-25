@@ -56,16 +56,16 @@ export default function Home() {
         {data.socials.map((link) => {
           if (link.href.includes("twitter")) {
             return (
-              <div key={link.title}>
+              <a key={link.title} href={link.href}>
                 <TwitterIcon />
-              </div>
+              </a>
             );
           }
           if (link.href.includes("github")) {
             return (
-              <div key={link.title}>
+              <a key={link.title} href={link.href}>
                 <GitHubIcon />
-              </div>
+              </a>
             );
           }
         })}
